@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>reviews on FEOTA</title>
-    <link>feota.eu/reviews/</link>
+    <link>https://feota.eu/reviews/</link>
     <description>Recent content in reviews on FEOTA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Feb 2018 11:52:18 +0700</lastBuildDate><atom:link href="feota.eu/reviews/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Feb 2018 11:52:18 +0700</lastBuildDate><atom:link href="https://feota.eu/reviews/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Review1</title>
-      <link>feota.eu/reviews/review1/</link>
+      <link>https://feota.eu/reviews/review1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>feota.eu/reviews/review1/</guid>
+      <guid>https://feota.eu/reviews/review1/</guid>
       <description>&amp;ldquo;Ms Shirajum is an excellent math tutor. She explains all the concepts constructively and breaks them down for better understanding. She is also willing to go over the concepts multiple times if I am having trouble understanding the problems at first. I definitely recommend her as a math tutor for everyone.&amp;quot;
 -Ankita C., IB maths, International School of Helsinki</description>
     </item>
     
     <item>
       <title>Review2</title>
-      <link>feota.eu/reviews/review2/</link>
+      <link>https://feota.eu/reviews/review2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>feota.eu/reviews/review2/</guid>
+      <guid>https://feota.eu/reviews/review2/</guid>
       <description>&amp;ldquo;As a tutor you are excellent and co-operative and sincere. I give you 100 out of 100. Best wishes for you.&amp;quot;
 -Afzal A., IELTS student, Dhaka</description>
     </item>
     
     <item>
       <title>Review3</title>
-      <link>feota.eu/reviews/review3/</link>
+      <link>https://feota.eu/reviews/review3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>feota.eu/reviews/review3/</guid>
+      <guid>https://feota.eu/reviews/review3/</guid>
       <description>&amp;ldquo;I received my maths exam results and I got the extra point, so I will now graduate! so thank you so much for all your help.&amp;quot;
 -Ella T., IB maths, Helsinki</description>
     </item>

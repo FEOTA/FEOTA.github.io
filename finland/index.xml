@@ -2,62 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Finland on FEOTA</title>
-    <link>feota.eu/finland/</link>
+    <link>https://feota.eu/finland/</link>
     <description>Recent content in Finland on FEOTA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Oct 2021 13:20:18 +0300</lastBuildDate><atom:link href="feota.eu/finland/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Oct 2021 13:20:18 +0300</lastBuildDate><atom:link href="https://feota.eu/finland/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Best education</title>
-      <link>feota.eu/finland/best_education/</link>
+      <link>https://feota.eu/finland/best_education/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>feota.eu/finland/best_education/</guid>
+      <guid>https://feota.eu/finland/best_education/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Happiest country in the world</title>
-      <link>feota.eu/finland/happiest_country/</link>
+      <link>https://feota.eu/finland/happiest_country/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>feota.eu/finland/happiest_country/</guid>
+      <guid>https://feota.eu/finland/happiest_country/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Safest country</title>
-      <link>feota.eu/finland/safest_country/</link>
+      <link>https://feota.eu/finland/safest_country/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>feota.eu/finland/safest_country/</guid>
+      <guid>https://feota.eu/finland/safest_country/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Digital forerunner</title>
-      <link>feota.eu/finland/digital_forerunner/</link>
+      <link>https://feota.eu/finland/digital_forerunner/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>feota.eu/finland/digital_forerunner/</guid>
+      <guid>https://feota.eu/finland/digital_forerunner/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Student healthcare</title>
-      <link>feota.eu/finland/student_healthcare/</link>
+      <link>https://feota.eu/finland/student_healthcare/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>feota.eu/finland/student_healthcare/</guid>
+      <guid>https://feota.eu/finland/student_healthcare/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cleanest air</title>
-      <link>feota.eu/finland/cleanest_air/</link>
+      <link>https://feota.eu/finland/cleanest_air/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>feota.eu/finland/cleanest_air/</guid>
+      <guid>https://feota.eu/finland/cleanest_air/</guid>
       <description></description>
     </item>
     

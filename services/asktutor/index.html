@@ -282,7 +282,7 @@ blockquote {
 </style>
 <blockquote>
 
-<img style="max-width: 26%; border-radius: 50%;" src='/services/tutor_monira.jpg'/>
+<img class="profile" style="max-width: 26%; border-radius: 50%;" src='/services/tutor_monira.jpg'/>
 <p>
 	<div class="profile-heading">
 	Academic qualification
@@ -365,7 +365,7 @@ blockquote {
       <img class="modal-content" id="full-image">
     </div>
     <script type="text/javascript">
-      $(".images img").click(function(){
+      $(".images img").not(".profile").click(function(){
         $("#full-image").attr("src", $(this).attr("src"));
         $('#image-viewer').show();
       });

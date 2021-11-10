@@ -335,7 +335,7 @@ blockquote {
       <img class="modal-content" id="full-image">
     </div>
     <script type="text/javascript">
-      $(".images img").click(function(){
+      $(".images img").not(".profile").click(function(){
         $("#full-image").attr("src", $(this).attr("src"));
         $('#image-viewer').show();
       });

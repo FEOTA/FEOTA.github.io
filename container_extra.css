@@ -1,0 +1,10 @@
+
+.container-scaling{
+	max-width: 80%;
+	padding-top: 3vmax; padding-bottom: 7vmax;
+}
+@media screen and (min-width: 60em){
+	.container-scaling{
+	max-width: 60em;
+	}
+}

@@ -4,14 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>AskTutor - FEOTA - Consultancy and Tutoring</title>
+  <title>Tutoring - FEOTA - Consultancy and Tutoring</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="https://feota.eu/favicon.png">
 
   
   
-  <link rel="stylesheet" href="/css/style.min.28f4e6f96cba7a593c068bbd2e7085d0aa6b4646d53f170db9441877024d4f83.css">
+  <link rel="stylesheet" href="/css/style.min.0096e94ead515e34e4701cf78d7390c7889c62eb89d5f8a1c094cf87b827c6b1.css">
   
 
   
@@ -27,6 +27,8 @@ cfg: {
     instrumentationKey: "13ab4eb4-ab55-4277-9af9-3a5eb5ab28fb"
 }});
 </script>
+<link rel="stylesheet" href="purecookie.css"/>
+<script src="purecookie.js"></script>
 
 </head>
 
@@ -73,28 +75,34 @@ cfg: {
     
     
     
-    <li class="menu-item-about">
+    <li class="menu-item-about us">
       <a href="/about/">
         
-        <span>About</span>
+        <span>About Us</span>
       </a>
     </li>
     
     
     
-    <li class="menu-item-services">
-      <a href="/services/consultancy/">
+    <li class="menu-item-our services">
+      <a href="/services/education-consultancy/">
         
-        <span>Consultancy</span>
+        <span>Education consulting</span>
       </a>
     </li>
-    <li class="menu-item-services">
+    <li class="menu-item-our services">
+      <a href="/services/career-consultancy/">
+        
+        <span>Career consulting</span>
+      </a>
+    </li>
+    <li class="menu-item-our services">
       <a href="/services/asktutor/">
         
         <span>AskTutor</span>
       </a>
     </li>
-    <li class="menu-item-services">
+    <li class="menu-item-our services">
       <a href="/scicore/">
         
         <span>SciCore</span>
@@ -103,10 +111,37 @@ cfg: {
     
     
     
-    <li class="menu-item-contact us">
+    <li class="menu-item-reviews">
+      <a href="/reviews/">
+        
+        <span>Reviews</span>
+      </a>
+    </li>
+    
+    
+    
+    <li class="menu-item-online store">
+      <a href="/store/">
+        
+        <span>Online store</span>
+      </a>
+    </li>
+    
+    
+    
+    <li class="menu-item-latest">
+      <a href="/latest/">
+        
+        <span>Latest</span>
+      </a>
+    </li>
+    
+    
+    
+    <li class="menu-item-contact">
       <a href="/contact/">
         
-        <span>Contact us</span>
+        <span>Contact</span>
       </a>
     </li>
     
@@ -142,8 +177,9 @@ cfg: {
   .dropdown-content {
     display: none;
     position: absolute;
-    width: 130%;
+    width: 100%;
     overflow: auto;
+    text-align: center;
     
   }
   .dropdown:hover .dropdown-content {
@@ -175,33 +211,61 @@ cfg: {
     
     
     
-    <li class="menu-item-about">
+    <li class="menu-item-about us">
       <a href="/about/">
         
-        <span>About</span>
+        <span>About Us</span>
       </a>
     </li>
     
     
     
-    <li class="dropdown menu-item-services">
+    <li class="dropdown menu-item-our services">
       <a href="#">
         
-        <span>Services</span>
+        <span>Our Services</span>
       </a>
       <div class="dropdown-content">
-        <a href="/services/consultancy/">Consultancy</a>
-        <a href="/services/asktutor/">AskTutor</a>
+        <a href="/services/education-consultancy/">Education consulting</a>
+        <a href="/services/career-consultancy/">Career consulting</a>
+        <a href="/services/asktutor/">Tutoring</a>
         <a href="/scicore/">SciCore</a>
       </div>
     </li>
     
     
     
-    <li class="menu-item-contact us">
+    <li class="menu-item-reviews">
+      <a href="/reviews/">
+        
+        <span>Reviews</span>
+      </a>
+    </li>
+    
+    
+    
+    <li class="menu-item-online store">
+      <a href="/store/">
+        
+        <span>Online store</span>
+      </a>
+    </li>
+    
+    
+    
+    <li class="menu-item-latest">
+      <a href="/latest/">
+        
+        <span>Latest</span>
+      </a>
+    </li>
+    
+    
+    
+    <li class="menu-item-contact">
       <a href="/contact/">
         
-        <span>Contact us</span>
+        <span>Contact</span>
       </a>
     </li>
     
@@ -227,8 +291,9 @@ cfg: {
 </div>
 
     
-<div id="hero" class="hero-image hero-image-setheight" style="background-image: url('/services/banner_asktutor.png')">
-  <div class="container ">
+<div id="hero" class='hero-image hero-image-setheight' style="background-image: url('/services/banner_asktutor.jpg'); background-position: left top 5vmax;">
+
+  <div class="container" style="max-width: 70%;">
     <style>
     .title-bg{
       background-color: #30303080;
@@ -248,26 +313,28 @@ cfg: {
   </div>
 </div>
   
+
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="/magnify_image.css"></link>
-<div class="container pt-4 pt-md-10 pb-4 pb-md-10">
+<link rel="stylesheet" type="text/css" href="/magnify_image.css"></link>
+<link rel="stylesheet" type="text/css" href="/container_extra.css"></link>
+<div class="container container-scaling">
   <div class="row justify-content-start">
     <div class="col-12">
       <div class="service service-single">
         <div class="content images centerimg"><p>AskTutor is an unique service we developed, keeping students from diverse background and their individual needs in mind.</p>
-<p>Through this service we offer high quality physics, chemistry, mathematics, biology and English language tuition at an affordable price. You have the freedom to choose any number of sessions for the subjects mentioned in the price chart below. If you are looking for regular tuition, pick one of our packages to save a buck. It is possible to arrange the sessions either online (for students living outside Helsinki region) or in-person (for students living within Helsinki region) depending on the availability, area of expertise and location of the tutors.</p>
+<p>We offer high quality physics, chemistry, mathematics, biology and English language tuition at an affordable price. You have the freedom to choose any number of sessions per month. Private tuition can be arranged either online (for students living outside Helsinki region) or in-person (for students living within Helsinki region) depending on the availability, area of expertise and location of the tutors.</p>
 <p> </p>
 <h3 id="our-tutors-are-also-experts-in-their-respective-fields">Our tutors are also experts in their respective fields</h3>
-<p>Meet <strong>Shirajum</strong>, one of our expert tutors with more than seven years of teaching experience in Finland! She is also the <strong>managing director</strong> of FEOTA and a young physicist eager to delve into the world of subatomic particles.</p>
+<p>Meet <strong>Shirajum</strong>, one of our tutors with more than seven years of teaching experience in Finland. She is also the founder of FEOTA Oy and a young physicist eager to delve into the world of subatomic particles.</p>
 
 <div>
 <style>
 blockquote {
 	margin-left: 15%;
 	margin-right: 15%;
-	padding: 15px;
+	padding: 1.5vmax;
 	background: #eceded;
-	border-radius: 10px;
+	border-radius: 0.8vmax;
 }
 
 .profile-heading{
@@ -282,7 +349,8 @@ blockquote {
 </style>
 <blockquote>
 
-<img class="profile" style="max-width: 26%; border-radius: 50%;" src='/services/tutor_monira.jpg'/>
+
+<img class="profile" style="width: 8vmax; border-radius: 50%;" src='/services/tutor_monira.jpg'/>
 <p>
 	<div class="profile-heading">
 	Academic qualification
@@ -343,18 +411,29 @@ blockquote {
 
 
 <p> </p>
-<h3 id="the-registration-process-is-free-of-charge-easy-and-quick">The registration process is free of charge, easy and quick</h3>
-<ul>
-<li>Fill up the <a href="/contact">contact form</a> with your name, email and country of residence.</li>
-<li>Choose <em>&lsquo;AskTutor science&rsquo;</em>, if you need help with physics, chemistry, mathematics and/or biology.</li>
-<li>Choose <em>&lsquo;AskTutor language&rsquo;</em>, if you need help with English language skills.</li>
-<li>Check the price chart below for service fees.</li>
-<li>In the message box, write us a short text about your educational background, requirements and service you want to buy.</li>
-<li>Submit and wait for our response.</li>
-</ul>
-<p>Our representative will contact you by email and guide you through the payment process. Once the payment is made, you will be connected to your tutor and the sessions will start as agreed.</p>
-<p> </p>
-<p><img src="/services/tutor_chart.jpg" alt="AskTutor price chart"></p>
+
+<div>
+<style>
+.button2 {
+   
+  background:#333333;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white !important;
+  font-size: 1.5vmax;
+  transition: all 0.3s;
+  font-weight:700;
+  padding: 0.7vmax 1.1vmax;
+  text-decoration: none !important;
+}
+.button2:hover { background:#de901a; }
+</style>
+<div style="display: flex; justify-content: center;">
+<a class="button button2" href='/store'>Book a tutor</a>
+</div>
+</div>
+
 </div>
       </div>
     </div>
@@ -383,26 +462,32 @@ blockquote {
       <div class="col-12">
         <div class="footer-inner" style="margin-left: 2%; margin-right: 2%;">
           <ul class="connect">
-            <li class="text-white">Follow us on social media!
+            <li class="text-white">Follow on social media
               
-                  <a href="https://www.facebook.com/feotaoy" target="blank"><img width="25" height="25" src="/social/facebook_logo.png" title="Facebook" alt="Facebook" /></a>
+                  <a href="https://www.facebook.com/feotaoy" target="blank"><img style="width: 2vmax; height: auto;" src="/social/facebook_logo.png" title="Facebook" alt="Facebook" /></a>
               
-                  <a href="https://www.instagram.com/feotaoy/" target="blank"><img width="25" height="25" src="/social/instagram_logo.png" title="Instagram" alt="Instagram" /></a>
+                  <a href="https://www.instagram.com/feotaoy/" target="blank"><img style="width: 2vmax; height: auto;" src="/social/instagram_logo.png" title="Instagram" alt="Instagram" /></a>
               
-                  <a href="https://twitter.com/feota_oy/" target="blank"><img width="25" height="25" src="/social/twitter.svg" title="Twitter" alt="Twitter" /></a>
+                  <a href="https://twitter.com/feota_oy/" target="blank"><img style="width: 2vmax; height: auto;" src="/social/twitter.svg" title="Twitter" alt="Twitter" /></a>
               
             </li>
           </ul>
           
+          <ul class="footer-middle" style="justify-content: flex-start;">
+            <li><a href="/privacy/">Privacy Policy</a></li>
+            <li><a href="/terms-of-service/">Terms of Services</a></li>
+            <li><a href="/faq/">FAQ</a></li>
+          </ul>
+
           <ul class="footer-menu" style="justify-content: flex-end;">
-            
-            <li class="copyright" style="font-size: small;">Copyright © 2022 FEOTA - Consultancy and Tutoring - All Rights Reserved</li>
+            <li class="copyright" style="font-size: 0.8vmax;">Copyright © 2022 FEOTA - Consultancy and Tutoring - All Rights Reserved</li>
           </ul>
         </div>
       </div>
     </div>
   </div>
 </div>
+
   
 
   

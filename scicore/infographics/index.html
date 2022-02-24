@@ -11,7 +11,7 @@
 
   
   
-  <link rel="stylesheet" href="/css/style.min.28f4e6f96cba7a593c068bbd2e7085d0aa6b4646d53f170db9441877024d4f83.css">
+  <link rel="stylesheet" href="/css/style.min.0096e94ead515e34e4701cf78d7390c7889c62eb89d5f8a1c094cf87b827c6b1.css">
   
 
   
@@ -27,10 +27,12 @@ cfg: {
     instrumentationKey: "13ab4eb4-ab55-4277-9af9-3a5eb5ab28fb"
 }});
 </script>
+<link rel="stylesheet" href="purecookie.css"/>
+<script src="purecookie.js"></script>
 
 </head>
 
-<body class='page page-finland-single'>
+<body class='page page-services-single'>
 
     <div id="fb-root"></div>
 
@@ -73,28 +75,34 @@ cfg: {
     
     
     
-    <li class="menu-item-about">
+    <li class="menu-item-about us">
       <a href="/about/">
         
-        <span>About</span>
+        <span>About Us</span>
       </a>
     </li>
     
     
     
-    <li class="menu-item-services">
-      <a href="/services/consultancy/">
+    <li class="menu-item-our services">
+      <a href="/services/education-consultancy/">
         
-        <span>Consultancy</span>
+        <span>Education consulting</span>
       </a>
     </li>
-    <li class="menu-item-services">
+    <li class="menu-item-our services">
+      <a href="/services/career-consultancy/">
+        
+        <span>Career consulting</span>
+      </a>
+    </li>
+    <li class="menu-item-our services">
       <a href="/services/asktutor/">
         
         <span>AskTutor</span>
       </a>
     </li>
-    <li class="menu-item-services">
+    <li class="menu-item-our services">
       <a href="/scicore/">
         
         <span>SciCore</span>
@@ -103,10 +111,37 @@ cfg: {
     
     
     
-    <li class="menu-item-contact us">
+    <li class="menu-item-reviews">
+      <a href="/reviews/">
+        
+        <span>Reviews</span>
+      </a>
+    </li>
+    
+    
+    
+    <li class="menu-item-online store">
+      <a href="/store/">
+        
+        <span>Online store</span>
+      </a>
+    </li>
+    
+    
+    
+    <li class="menu-item-latest">
+      <a href="/latest/">
+        
+        <span>Latest</span>
+      </a>
+    </li>
+    
+    
+    
+    <li class="menu-item-contact">
       <a href="/contact/">
         
-        <span>Contact us</span>
+        <span>Contact</span>
       </a>
     </li>
     
@@ -142,8 +177,9 @@ cfg: {
   .dropdown-content {
     display: none;
     position: absolute;
-    width: 130%;
+    width: 100%;
     overflow: auto;
+    text-align: center;
     
   }
   .dropdown:hover .dropdown-content {
@@ -175,33 +211,61 @@ cfg: {
     
     
     
-    <li class="menu-item-about">
+    <li class="menu-item-about us">
       <a href="/about/">
         
-        <span>About</span>
+        <span>About Us</span>
       </a>
     </li>
     
     
     
-    <li class="dropdown menu-item-services">
+    <li class="dropdown menu-item-our services">
       <a href="#">
         
-        <span>Services</span>
+        <span>Our Services</span>
       </a>
       <div class="dropdown-content">
-        <a href="/services/consultancy/">Consultancy</a>
-        <a href="/services/asktutor/">AskTutor</a>
+        <a href="/services/education-consultancy/">Education consulting</a>
+        <a href="/services/career-consultancy/">Career consulting</a>
+        <a href="/services/asktutor/">Tutoring</a>
         <a href="/scicore/">SciCore</a>
       </div>
     </li>
     
     
     
-    <li class="menu-item-contact us">
+    <li class="menu-item-reviews">
+      <a href="/reviews/">
+        
+        <span>Reviews</span>
+      </a>
+    </li>
+    
+    
+    
+    <li class="menu-item-online store">
+      <a href="/store/">
+        
+        <span>Online store</span>
+      </a>
+    </li>
+    
+    
+    
+    <li class="menu-item-latest">
+      <a href="/latest/">
+        
+        <span>Latest</span>
+      </a>
+    </li>
+    
+    
+    
+    <li class="menu-item-contact">
       <a href="/contact/">
         
-        <span>Contact us</span>
+        <span>Contact</span>
       </a>
     </li>
     
@@ -227,8 +291,9 @@ cfg: {
 </div>
 
     
-<div id="hero" class="hero-image hero-image-setheight" style="background-image: url('/scicore/banner.svg')">
-  <div class="container ">
+<div id="hero" class='hero-image hero-image-setheight' style="background-image: url('/scicore/banner_infographics.jpg'); background-position: left top 5vmax;">
+
+  <div class="container" style="max-width: 70%;">
     <style>
     .title-bg{
       background-color: #30303080;
@@ -248,11 +313,12 @@ cfg: {
   </div>
 </div>
   
+
 <div class="container pt-4 pb-4 pb-md-10">
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
-      <div class="finland finland-single">
-        <div class="content"></div>
+      <div class="service service-single">
+        <div class="content images centerimg"></div>
       </div>
     </div>
     
@@ -356,26 +422,32 @@ cfg: {
       <div class="col-12">
         <div class="footer-inner" style="margin-left: 2%; margin-right: 2%;">
           <ul class="connect">
-            <li class="text-white">Follow us on social media!
+            <li class="text-white">Follow on social media
               
-                  <a href="https://www.facebook.com/feotaoy" target="blank"><img width="25" height="25" src="/social/facebook_logo.png" title="Facebook" alt="Facebook" /></a>
+                  <a href="https://www.facebook.com/feotaoy" target="blank"><img style="width: 2vmax; height: auto;" src="/social/facebook_logo.png" title="Facebook" alt="Facebook" /></a>
               
-                  <a href="https://www.instagram.com/feotaoy/" target="blank"><img width="25" height="25" src="/social/instagram_logo.png" title="Instagram" alt="Instagram" /></a>
+                  <a href="https://www.instagram.com/feotaoy/" target="blank"><img style="width: 2vmax; height: auto;" src="/social/instagram_logo.png" title="Instagram" alt="Instagram" /></a>
               
-                  <a href="https://twitter.com/feota_oy/" target="blank"><img width="25" height="25" src="/social/twitter.svg" title="Twitter" alt="Twitter" /></a>
+                  <a href="https://twitter.com/feota_oy/" target="blank"><img style="width: 2vmax; height: auto;" src="/social/twitter.svg" title="Twitter" alt="Twitter" /></a>
               
             </li>
           </ul>
           
+          <ul class="footer-middle" style="justify-content: flex-start;">
+            <li><a href="/privacy/">Privacy Policy</a></li>
+            <li><a href="/terms-of-service/">Terms of Services</a></li>
+            <li><a href="/faq/">FAQ</a></li>
+          </ul>
+
           <ul class="footer-menu" style="justify-content: flex-end;">
-            
-            <li class="copyright" style="font-size: small;">Copyright © 2022 FEOTA - Consultancy and Tutoring - All Rights Reserved</li>
+            <li class="copyright" style="font-size: 0.8vmax;">Copyright © 2022 FEOTA - Consultancy and Tutoring - All Rights Reserved</li>
           </ul>
         </div>
       </div>
     </div>
   </div>
 </div>
+
   
 
   
